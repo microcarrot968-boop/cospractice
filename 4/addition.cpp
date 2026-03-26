@@ -12,7 +12,7 @@ int uadd_ok(unsigned a , unsigned b)
 		return 1;
 }
 
-int tadd_ok(int a, int b)
+int tadd_ok(int a, int b) // 둘을 더하는 함수
 {
 	int sum;
 	sum = a+b;
