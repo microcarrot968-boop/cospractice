@@ -21,6 +21,6 @@ int main()
     }
 
     cout << "We have successfully performed " << x << " allocations!" << endl;
-
+    free(p);
     return 0;
 }
